@@ -53,6 +53,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const CleanCSS = require("clean-css");
+const { parse } = require("path");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 
 module.exports = function (eleventyConfig) {
@@ -65,6 +66,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addNunjucksFilter("addUTMParams", function(url, kwargs) {
+    let parsedURL = new URL(url);
+    for (const param of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']) {
+      if (param in kwargs) {
+        parsedURL.searchParams.set(param, kwargs[param]);
+      }
+    }
+    return parsedURL.toString();
+   });
   eleventyConfig.addNunjucksAsyncFilter("addHash", function (
     absolutePath,
     callback

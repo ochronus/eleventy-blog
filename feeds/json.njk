@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
     {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
     {
       "id": "{{ absolutePostUrl }}",
-      "url": "{{ absolutePostUrl }}",
+      "url": "{{ absolutePostUrl | addUTMParams(utm_source='json-feed')}}",
       "title": "{{ post.data.title }}",
       "content_html": {% if post.templateContent %}{{ post.templateContent | dump | safe }}{% else %}""{% endif %},
       "date_published": "{{ post.date | rssDate }}"
