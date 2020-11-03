@@ -36,7 +36,7 @@ const CSP = {
     // No plugins
     ["object-src", quote("none")],
     // Script from same-origin and inline-hashes.
-    ["script-src", 'https://gc.zgo.at', https://www.googletagmanager.com', SELF, /* Replaced by csp.js plugin */ "HASHES"],
+    ["script-src", 'https://gc.zgo.at', 'https://www.googletagmanager.com', SELF, /* Replaced by csp.js plugin */ "HASHES"],
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
