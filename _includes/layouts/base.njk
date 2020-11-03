@@ -18,7 +18,7 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
     <title>{{ renderData.title or title or metadata.title | escape }}</title>
     <meta property="og:title" content="{{ renderData.title or title or metadata.title | escape  }}">
-    {% set desc = renderData.description or description %}
+    {% set desc = excerpt or metadata.excerpt or renderData.excerpt or renderData.description or description %}
     {% if not desc %}
       {% set desc = content | striptags | truncate(140) %}
     {% endif %}
@@ -75,7 +75,9 @@
       </noscript>
       {% endif %}
     </header>
-
+    {% if image %}
+    <img class="hero-image" src="{{ image }}" />
+    {% endif %}
     <main>
       <article>
         {% block article %}

@@ -1,25 +1,24 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "title": "Ochronus online",
+  "url": "https://ochronus.online",
+  "domain": "ochronus.online",
+  "description": "Where the rising ape meets the falling angel",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "GA ID. Update me",
   "feed": {
-    "subtitle": "Subtitle. Update me.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "subtitle": "Where the rising ape meets the falling angel",
+    "path": "/feed.xml",
+    "id": "https://ochronus.online"
   },
   "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "path": "/feed.json",
+    "url": "https://ochronus.online/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Csaba Okrona",
+    "twitterHandle": "ochronus"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Csaba Okrona"
   }
 }
