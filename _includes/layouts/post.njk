@@ -18,10 +18,10 @@ templateClass: tmpl-post
 {% block article %}
 {{ content | safe }}
 
-<h1>🙏🙏🙏</h1>
+<script async data-uid="fa115ee89a" src="https://ochronus-online.ck.page/fa115ee89a/index.js"></script>
 <p>
-  Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network 
-  would be highly appreciated 💖! For feedback, please 
+  Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network
+  would be highly appreciated 💖! For feedback, please
   <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">ping me on Twitter.</a>
 </p>
 
@@ -37,8 +37,8 @@ templateClass: tmpl-post
   "@type": "Article",
   "headline": "{{ title }}",
   "image": [],
-  "author": "{{ metadata.author.name }}", 
-  "genre": "{{ metadata.genre }}", 
+  "author": "{{ metadata.author.name }}",
+  "genre": "{{ metadata.genre }}",
   "publisher": {
     "@type": "Organization",
     "name": "{{ metadata.publisher.name }}",
@@ -54,5 +54,5 @@ templateClass: tmpl-post
   "description": "{{ content | striptags | truncate(140) }}"
 }
 </script>
-
+<script async data-uid="e78e6c99e6" src="https://ochronus-online.ck.page/e78e6c99e6/index.js"></script>
 {% endblock %}
