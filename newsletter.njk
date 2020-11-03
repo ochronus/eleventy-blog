@@ -1,0 +1,15 @@
+---
+title: Newsletter
+layout: layouts/home.njk
+permalink: /newsletter/
+description: ochronus online newsletter
+eleventyNavigation:
+  key: Newsletter
+  order: 2
+---
+
+<div id="posts">
+  <h2>Newsletters</h2>
+  {% set postslist = collections.newsletter %}
+  {% include "postslist.njk" %}
+</div>
