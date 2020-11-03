@@ -2,7 +2,7 @@
 draft: false
 author: [Csaba Okrona]
 date: '2020-07-02T10:39:54+01:00'
-title: Goal setting
+title: The 101 of effective goal setting
 permalink: /goal-setting/
 excerpt: Goal setting is one of the most important ways to foster growth, let's look at some key concepts and frameworks.
 tags:
