@@ -36,7 +36,7 @@ const CSP = {
     // No plugins
     ["object-src", quote("none")],
     // Script from same-origin and inline-hashes.
-    ["script-src", SELF, /* Replaced by csp.js plugin */ "HASHES"],
+    ["script-src", 'https://gc.zgo.at', https://www.googletagmanager.com', SELF, /* Replaced by csp.js plugin */ "HASHES"],
     // Inline CSS is allowed.
     ["style-src", quote("unsafe-inline")],
     // Images may also come from data-URIs.
@@ -46,8 +46,6 @@ const CSP = {
     // additional allowed elements.
     // Example for allowing YouTube iframe embeds
     // ['frame-src', 'https://www.youtube.com/embed/']
-    ['script-src', 'https://gc.zgo.at'],
-    ['script-src', 'https://www.googletagmanager.com'],
   ]),
 };
 
