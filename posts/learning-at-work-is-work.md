@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: '2020-05-07'
 title: Learning at work is work
-url: learning-at-work-is-work
+permalink: /learning-at-work-is-work/
 excerpt: Everyone agrees that constant learning and having a growth mindset are fundamental to success in software engineering. Yet once you are done with onboarding at your new job as a software engineer the rat race seems to begin, leaving no dedicated time for learning.
 tags:
     - growth

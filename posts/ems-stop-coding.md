@@ -3,7 +3,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2017-02-24T09:39:54+01:00'
 title: 'Engineering managers, stop coding!'
-url: engineering-managers-stop-coding
+permalink: /engineering-managers-stop-coding/
 excerpt: 'Try this instead: every time you feel the urge to write code, instead spend the time reading or learning something related to management.'
 tags:
     - self

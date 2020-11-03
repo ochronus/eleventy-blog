@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2019-10-06
 title: Excuse no. 13 - this is how I am
-url: this-is-how-i-am
+permalink: /this-is-how-i-am/
 excerpt: Don't limit yourself with excuses. How you are can change and it is completely up to you.
 tags:
     - self

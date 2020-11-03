@@ -6,7 +6,7 @@ date: '2019-06-04'
 tags:
   - management
   - team
-url: kill-your-heroes
+permalink: /kill-your-heroes/
 excerpt: Hero engineers can be deadly to team culture, it's time to retire those capes.
 layout: layouts/post.njk
 ---

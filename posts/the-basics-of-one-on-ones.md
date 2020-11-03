@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2020-02-07
 title: The basics of one-on-ones
-url: the-basics-of-one-on-ones
+permalink: /the-basics-of-one-on-ones/
 excerpt: 'Conducting good 1:1 sessions is one of the most frustrating skills new engineering leads need to learn. Read about best practices that worked for me on both sides of this relationship – as an engineer and as an engineering manager. I’ll also mention some common pitfalls to avoid.'
 tags:
     - one-on-one

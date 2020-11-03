@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2020-05-19
 title: Thoughts on giving feedback
-url: thoughts-on-feedback
+permalink: /thoughts-on-feedback/
 excerpt: A good, blameless feedback culture is essential for working together efficiently as it forms healthy relationships, fuels personal and professional growth and aligns us with common norms. Feedback is one of the cornerstones of company culture.
 tags:
     - feedback

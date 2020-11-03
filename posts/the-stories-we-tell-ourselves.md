@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: '2020-09-17'
 title: The stories we tell ourselves
-url: stories-we-tell-ourselves
+permalink: /stories-we-tell-ourselves/
 excerpt: We have a mechanism that creates unhappiness, difficulty changing habits, relationship problems, frustration, anger and disappointment. We are usually not aware of this, but it is happening continuously and in all of us.
 tags:
     - self

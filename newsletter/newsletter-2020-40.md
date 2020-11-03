@@ -4,7 +4,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2020-10-03'
 title: 'Newsletter - 2020 week 40 - Ochronus online'
-url: newsletter/2020-week-40
+permalink: /newsletter/2020-week-40/
 excerpt: 'Interesting links about burnout, our sense of time, a connection between learning speed and being told what choices to make, recognizing your management wins and how to have productive arguments.'
 tags: [newsletter]
 image: /img/Ochronus-online-2020-week-40.png

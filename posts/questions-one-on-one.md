@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2020-04-22
 title: Questions vs. directions
-url: questions-vs-directions
+permalink: /questions-vs-directions/
 excerpt: Asking questions is a basic coaching technique but doing it properly is a matter of practice, finding a good balance and avoiding some common pitfalls. As with most of the things in life.
 tags:
     - coaching

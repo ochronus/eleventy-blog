@@ -3,7 +3,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2020-08-19'
 title: 'On COVID, burnout, teams and self-care'
-url: covid-burnout-health
+permalink: /covid-burnout-health/
 excerpt: 'The changes COVID brought into our lives and work can affect us in profound ways. Let me share some aspects and my thoughts with you.'
 tags: [covid, burnout, management]
 layout: layouts/post.njk

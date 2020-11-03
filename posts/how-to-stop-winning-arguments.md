@@ -3,7 +3,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2020-09-26'
 title: 'How to stop winning arguments'
-url: how-to-stop-winning-arguments
+permalink: /how-to-stop-winning-arguments/
 excerpt: We tend to treat arguments as fights or zero-sum games which hinders their original purpose. We should stop doing that.
 tags: [coaching, growth, management]
 image: /img/stop-winning-arguments.jpg

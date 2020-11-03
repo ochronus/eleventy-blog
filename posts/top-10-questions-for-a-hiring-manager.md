@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2020-05-24
 title: Top 12 questions you get as a hiring manager
-url: top-10-questions-for-a-hiring-manager
+permalink: /top-10-questions-for-a-hiring-manager/
 excerpt: I have gathered the top 12 questions candidates asked me as a hiring manager.
 tags:
     - hiring

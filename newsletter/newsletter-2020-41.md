@@ -4,7 +4,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2020-10-10'
 title: 'Newsletter - 2020 week 41 - Ochronus online'
-url: 2020-week-41
+permalink: /newsletter/2020-week-41/
 excerpt: 'A collection of articles about a Rust-based safe programming course, an amazing workflow to remember what you learn, how narcissistic leaders infect org culture, a thought experiment on democracy and learning on company time.'
 tags: [newsletter]
 image: /img/Newsletter-week-41-2020.png

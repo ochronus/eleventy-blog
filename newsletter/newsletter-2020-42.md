@@ -4,7 +4,7 @@ draft: false
 author: [Csaba Okrona]
 date: '2020-10-18'
 title: 'Newsletter - 2020 week 42 - Ochronus online'
-url: 2020-week-42
+permalink: /newsletter/2020-week-42/
 excerpt: 'A collection of articles about a decision making, delegation, pitfalls of servant leadership and effective goal setting.'
 tags: [newsletter]
 image: /img/Newsletter-week-42-2020-1-2048x1152.png

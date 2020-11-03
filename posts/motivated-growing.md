@@ -2,7 +2,7 @@
 author: [Csaba Okrona]
 date: 2017-02-24
 title: Staying motivated while growing
-url: staying-motivated-while-growing
+permalink: /staying-motivated-while-growing/
 excerpt: The key to progress is the temptation of constant challenge, with tasks that remain both achievable and interesting, broken up into pieces of work that are just right.
 tags:
     - coaching
