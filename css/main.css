@@ -413,6 +413,46 @@ BUGS:
   src: url("/fonts/Inter-italic.var.woff2") format("woff2");
 }
 
+.social-wrapper {
+  text-align: center;
+  max-width: 40%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-wrapper a {
+  margin-left: 5px;
+}
+
+
+.twitter-follow {
+	box-shadow: 0px 10px 14px -7px #1da1f2;
+	background-color:#1da1f2;
+	border-radius:3px;
+  display:inline-block;
+  max-height: 45px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1da1f2;
+}
+.twitter-follow:hover {
+	background-color:#1da1f2;
+}
+.twitter-follow:active {
+	position:relative;
+  top:1px;
+  text-decoration: none;
+}
+
+
+
+
 /*
 
 The Bahunya CSS framework https://kimeiga.github.io/bahunya/

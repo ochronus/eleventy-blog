@@ -56,12 +56,13 @@
     "image-size": "^0.9.3",
     "lru-cache": "^6.0.0",
     "mocha": "^8.2.1",
+    "phin": "^3.5.1",
     "purge-from-html": "^1.0.3",
     "purgecss": "^3.0.0",
+    "querystring": "^0.2.0",
     "rollup": "^2.33.1",
     "sharp": "^0.26.2",
-    "twitter": "^1.7.1",
-    "phin": "^3.5.1",
-    "querystring": "^0.2.0"
+    "svg-social-icons": "^1.1.0",
+    "twitter": "^1.7.1"
   }
 }
