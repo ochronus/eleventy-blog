@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*https://www.lambrospetrou.com/articles/minibri-score-the-inception/*/
+
 /* Source Sans Pro */
 
 /* latin-ext */
@@ -302,13 +302,11 @@ a:hover, a:active, a:focus {
   border-bottom: 1px solid #920000;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-  /*font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;*/
-  font-weight: 900;
-}
+
 
 h1 {
   font-size: 180%;
+  font-weight: 700;
   line-height: 160%;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -316,6 +314,7 @@ h1 {
 
 h2 {
   font-size: 160%;
+  font-weight: 400;
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 150%;
@@ -323,18 +322,21 @@ h2 {
 
 h3 {
   font-size: 140%;
+  font-weight: 400;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 h4 {
   font-size: 110%;
+  font-weight: 300;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
 h5 {
   font-size: 100%;
+  font-weight: 300;
 }
 
 p {
@@ -346,6 +348,8 @@ p {
 ul, ol {
   list-style-position: outside;
   margin-left: 30px;
+  padding-left: 30px;
+  font-weight: 200;
 }
 
 ul ol, ul ul, ol ul, ol ol {
@@ -482,7 +486,7 @@ p img {
 
 #header-logo {
   display: block;
-  padding-top: 10px;
+
 }
 
 #header-logo a {
@@ -498,11 +502,14 @@ p img {
 #header-logo svg {
   width: 60px;
   height: auto;
+  vertical-align: middle;
 }
 
 #header-name {
-  font-size: 150%;
+  font-size: 250%;
   font-weight: 700;
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 #header-quote {
@@ -513,7 +520,7 @@ p img {
 }
 
 #inner-header #nav-buttons {
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 #inner-header #nav-buttons a {
@@ -542,7 +549,13 @@ p img {
 .post-title {
   margin-bottom: 5px;
   color: #920000;
-  font-weight: lighter;
+}
+
+.post-title-index {
+  margin-bottom: 5px;
+  color: #920000;
+  font-weight: 300;
+  font-size: 140%;
 }
 
 header.post-header {
@@ -558,6 +571,10 @@ header.post-header {
   line-height: 100%;
   color: #555;
   text-transform: uppercase;
+}
+
+.post-body p {
+  font-weight: 300;
 }
 
 .index-posts {
@@ -696,11 +713,26 @@ header aside {
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .social-wrapper a {
   margin-left: 5px;
+  text-decoration: none;
+  border: none;
 }
+
+.social-wrapper a:link {
+  text-decoration: none;
+}
+.social-wrapper a svg {
+  transition: transform .25s, visibility .25s ease-in;
+}
+.social-wrapper a svg:hover {
+  text-decoration: none;
+  transform: scale(1.5);
+}
+
 
 
 .twitter-follow {
