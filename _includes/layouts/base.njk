@@ -67,28 +67,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   </head>
   <body>
-    <header>
-      <nav>
-        <div id="nav">
-          <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
-          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-          {%- for entry in collections.all | eleventyNavigation %}
-            <a href="{{ entry.url | url }}"> {{ entry.title }}</a>
-          {%- endfor %}
+    <div id="outer-wrapper">
+    <header id="header-wrapper" class="outer-section">
+      <div id="inner-header" class="inner-section">
+        <nav>
+          <div id="nav-buttons">
+            <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
+            {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+            {%- for entry in collections.all | eleventyNavigation %}
+              <a href="{{ entry.url | url }}"> {{ entry.title }}</a>
+            {%- endfor %}
 
-        </div>
-        <div id="reading-progress" aria-hidden="true"></div>
-      </nav>
-      <h1>{{ title }}</h1>
-      {% block extraArticleHeader %}{% endblock %}
+          </div>
+          <div id="reading-progress" aria-hidden="true"></div>
+        </nav>
+      </div>
+
+
+
       <dialog id="message"></dialog>
 
     </header>
-    {% if image %}
-    <img class="hero-image" src="{{ image }}" />
-    {% endif %}
-    <main>
-      <article>
+
+    <main id="content-wrapper" class="outer-section">
+      <article id="inner-content" class="inner-section">
+        <header class="post-header">
+          <h1 class="post-title">{{ title }}</h1>
+          <div class="post-meta">
+            {% block extraArticleHeader %}{% endblock %}
+          </div>
+        </header>
+        {% if image %}
+        <img class="hero-image" src="{{ image }}" />
+        {% endif %}
         {% block article %}
           {{ content | safe }}
         {% endblock %}
@@ -102,7 +113,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <footer>
       <a href="/about/">{{ metadata.author.name }}</a>
     </footer>
-
+  </div>
     <!-- Current page: {{ page.url | url }} -->
 
     <script data-goatcounter="https://ochronusonline.goatcounter.com/count"
