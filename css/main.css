@@ -491,11 +491,11 @@ p img {
 
 #header-logo a {
   border: 0;
+  text-decoration: none;
 }
 
 #header-logo a:hover {
   color: #920000;
-  border-bottom: 3px solid #920000;
 }
 
 #header-logo img,
@@ -504,6 +504,8 @@ p img {
   height: auto;
   vertical-align: middle;
 }
+
+
 
 #header-name {
   font-size: 250%;
