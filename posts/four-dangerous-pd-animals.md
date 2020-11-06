@@ -1,6 +1,6 @@
 ---
 draft: false
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-10-23'
 title: 'The four dangerous animals of product development'
 permalink: /four-dangerous-animals-of-product-development/

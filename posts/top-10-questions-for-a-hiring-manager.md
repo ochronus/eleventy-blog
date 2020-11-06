@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2020-05-24
 title: Top 12 questions you get as a hiring manager
 permalink: /top-10-questions-for-a-hiring-manager/

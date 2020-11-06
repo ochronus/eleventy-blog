@@ -8,8 +8,12 @@
           </h2>
           <div class="post-meta">
             <time  datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-            | by {{ post.data.author.name }}
-            </div>
+            <span class="post-tags">
+              {% for tag in post.data.tags | sort %}
+              <a href="/tags/{{ tag }}/">{{ tag }}</a>
+              {% endfor %}
+            </span>
+          </div>
       </header>
     </article>
   </li>

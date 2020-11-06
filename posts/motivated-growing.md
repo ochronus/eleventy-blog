@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2017-02-24
 title: Staying motivated while growing
 permalink: /staying-motivated-while-growing/

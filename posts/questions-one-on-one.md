@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2020-04-22
 title: Questions vs. directions
 permalink: /questions-vs-directions/

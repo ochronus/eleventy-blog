@@ -9,7 +9,7 @@ templateClass: tmpl-post
    {% set wc = content | striptags | wordcount %}
    {% set wPerMinute = wc / 240 %}
    <span>
-     {{ wPerMinute | round }} min read | by {{ metadata.author.name }} @ {{ post }}
+     {{ wPerMinute | round }} min read | by {{ metadata.author }} @ {{ post }}
    </span>
 {% endblock %}
 
@@ -22,8 +22,15 @@ templateClass: tmpl-post
                {% set wc = content | striptags | wordcount %}
    {% set wPerMinute = wc / 240 %}
    <span>
-     {{ wPerMinute | round }} min read | by {{ metadata.author.name }} @ {{ post }}
+     {{ wPerMinute | round }} min read | by {{ author }}
    </span>
+        <span class="post-tags float-right">
+          {% for tag in tags | sort %}
+          {% if tag ne "posts" %}
+          <a href="/tags/{{ tag }}/">{{ tag }}</a>
+          {% endif %}
+          {% endfor %}
+        </span>
           </div>
         </header>
         {% if image %}

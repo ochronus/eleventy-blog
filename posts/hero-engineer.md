@@ -1,7 +1,7 @@
 ---
 title: 'Kill your heroes'
 image: /img/hero-engineer.jpeg
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2019-06-04'
 tags:
   - management

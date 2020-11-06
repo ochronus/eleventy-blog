@@ -545,9 +545,33 @@ p img {
   font-style: oblique;
 }
 
+
+/* POST LIST */
+
+.post-tags {
+  text-transform: lowercase;
+}
+
+.post-tags a {
+  margin-left: 10px;
+  color: #b37e8a;
+}
+.post-tags  a:active, .post-tags a:hover, .post-tags a:focus {
+  border-bottom: 1px solid #b37e8a;
+}
+
+/* END POST LIST */
+
+
+
 /******************************
  * MAIN CONTENT - SINGLE POST VIEW
  */
+
+ .float-right {
+   float: right;
+ }
+
 .post-title {
   margin-bottom: 5px;
   color: #920000;
@@ -556,7 +580,7 @@ p img {
 .post-title-index {
   margin-bottom: 5px;
   color: #920000;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 140%;
 }
 

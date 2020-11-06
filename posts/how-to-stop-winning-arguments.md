@@ -1,6 +1,6 @@
 ---
 draft: false
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-09-26'
 title: 'How to stop winning arguments'
 permalink: /how-to-stop-winning-arguments/

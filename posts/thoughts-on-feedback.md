@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2020-05-19
 title: Thoughts on giving feedback
 permalink: /thoughts-on-feedback/

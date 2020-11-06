@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-05-07'
 title: Learning at work is work
 permalink: /learning-at-work-is-work/

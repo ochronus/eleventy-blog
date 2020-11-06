@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2020-02-07
 title: The basics of one-on-ones
 permalink: /the-basics-of-one-on-ones/

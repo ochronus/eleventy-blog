@@ -1,6 +1,6 @@
 ---
 draft: false
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2017-02-24T09:39:54+01:00'
 title: 'Engineering managers, stop coding!'
 permalink: /engineering-managers-stop-coding/

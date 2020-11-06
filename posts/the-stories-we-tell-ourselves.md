@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-09-17'
 title: The stories we tell ourselves
 permalink: /stories-we-tell-ourselves/

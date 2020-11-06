@@ -1,6 +1,6 @@
 ---
 draft: false
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-07-02T10:39:54+01:00'
 title: The 101 of effective goal setting
 permalink: /goal-setting/

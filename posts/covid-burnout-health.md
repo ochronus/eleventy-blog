@@ -9,6 +9,7 @@ tags:
   - management
 layout: layouts/post.njk
 image: /img/covid-burnout-health.jpg
+author: Csaba Okrona
 ---
 
 ## Burnout

@@ -1,5 +1,5 @@
 ---
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: 2019-10-06
 title: Excuse no. 13 - this is how I am
 permalink: /this-is-how-i-am/
