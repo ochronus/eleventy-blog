@@ -39,7 +39,7 @@ const processImage = async (img, outputPath) => {
   const noblur = img.getAttribute("noblur");
   let src = img.getAttribute("src");
   if (noblur != null) {
-    console.log("Skipping image processing for", src);
+    //console.log("Skipping image processing for", src);
     return;
   }
 

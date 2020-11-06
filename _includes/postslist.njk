@@ -1,5 +1,6 @@
 <ul class="index-posts">
 {% for post in postslist | reverse %}
+{% if not post.data.draft %}
   <li>
     <article>
       <header>
@@ -19,5 +20,6 @@
       </header>
     </article>
   </li>
+{% endif %}
 {% endfor %}
 </ul>

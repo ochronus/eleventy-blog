@@ -42,7 +42,8 @@ module.exports = async function (inputFilename, outputFilename, targetWidth) {
   const info = inputInfo.info;
 
   console.log(
-    "Encoding avif image. If this is slow, consid caching images in git with ./persistimages.sh"
+    "Encoding avif image. If this is slow, consid caching images in git with ./persistimages.sh",
+    inputFilename
   );
 
   // Initialize the WebAssembly Module
