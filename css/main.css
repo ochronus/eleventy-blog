@@ -415,6 +415,7 @@ header.post-header {
 .newsletter-signup {
   margin: 1em 0;
   text-align: center;
+  font-size: 16px;
 }
 .newsletter-signup header h3 {
   margin-bottom: 0;
@@ -427,7 +428,15 @@ header.post-header {
   padding: 10px;
   border: 1px solid #afafaf;
   border-radius: 2px;
+  line-height: normal;
+  font-size: 16px;
 }
+
+.newsletter-signup form button {
+  line-height: normal;
+  font-size: 16px;
+}
+
 .newsletter-signup form input:focus, .newsletter-signup form input:active {
   outline: 1px solid #555;
 }
