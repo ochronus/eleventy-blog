@@ -50,6 +50,7 @@ const execFile = promisify(require("child_process").execFile);
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const pluginTOC = require('eleventy-plugin-nesting-toc');
 const markdownIt = require("markdown-it");
 const markdownItImSize = require('markdown-it-imsize');
 const markdownItAttrs = require('markdown-it-attrs');
@@ -66,6 +67,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require("./_11ty/json-ld.js"));
   eleventyConfig.addPlugin(require("./_11ty/optimize-html.js"));
   eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
+  eleventyConfig.addPlugin(pluginTOC, {headingText: 'Table of contents', headingTag: 'h4'});
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addNunjucksFilter("addUTMParams", function(url, kwargs) {

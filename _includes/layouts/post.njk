@@ -37,6 +37,11 @@ templateClass: tmpl-post
         <img class="hero-image" src="{{ image }}" />
         {% endif %}
   <article class="post">
+    {% if toc %}
+    <aside class="table-of-contents-wrapper">
+      {{ content | toc | safe }}
+    </aside>
+    {% endif %}
     <section class="post-body">
       {{ content | safe }}
     </section>
