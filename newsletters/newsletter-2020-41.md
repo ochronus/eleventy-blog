@@ -1,7 +1,7 @@
 ---
 newsletter: true
 draft: false
-author: [Csaba Okrona]
+author: Csaba Okrona
 date: '2020-10-10'
 title: 'Newsletter - 2020 week 41 - Ochronus online'
 permalink: /newsletter/2020-week-41/
