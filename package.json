@@ -11,7 +11,8 @@
     "js-build-watch": "rollup -c rollup.config.js -w",
     "debug": "DEBUG=* eleventy && npm run test",
     "test": "mocha test/test*.js",
-    "test-watch": "mocha test/test*.js --watch"
+    "test-watch": "mocha test/test*.js --watch",
+    "deploy": "s3deploy -source _site -region us-east-1 -bucket ochronus.online -distribution-id E3K70CDJADQ4T3 -public-access"
   },
   "pre-push": [
     "build"
