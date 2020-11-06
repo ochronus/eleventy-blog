@@ -49,7 +49,7 @@ figure img {
 }
 
 body, input, button {
-  font-family: Georgia, Times, serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 22px;
   color: #3a3a3a;
   line-height: 1.6;
