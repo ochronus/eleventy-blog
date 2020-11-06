@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "npm run js-build && eleventy && npm run test && cp _redirects _site/ && cp _site/sitemap.xml _site/sitemap_index.xml && cp _site/feed.xml _site/feed && cp _site/feed.xml _site/atom.xml && cp _site/feed.xml _site/rss.xml",
+    "build": "rm -rf _site && npm run js-build && eleventy && cp _redirects _site/ && cp _site/sitemap.xml _site/sitemap_index.xml && cp _site/feed.xml _site/feed && cp _site/feed.xml _site/atom.xml && cp _site/feed.xml _site/rss.xml",
     "watch": "concurrently \"eleventy --serve\" \"npm run js-build-watch\"",
     "serve": "eleventy --serve",
     "js-build": "rollup -c rollup.config.js",
