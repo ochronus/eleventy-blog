@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 author: Csaba Okrona
 date: 2020-11-12
 title: Acing your technical interview – a hiring manager’s guide
@@ -8,7 +8,7 @@ excerpt: 'Learn how to prepare and excel at your next technical interview with t
 tags:
     - hiring
     - interview
-image: /img/acing-the-technical-interview/Acing-the-technical-interview-1-2048x1363.png
+image: /img/acing-the-technical-interview/acing-the-technical-interview.jpg
 layout: layouts/post.njk
 toc: true
 ---
@@ -31,6 +31,9 @@ First and foremost, a technical interview is almost never only technical. Up to 
 
 The thing is, you’ll rarely work alone in isolation on your own codebase. You’ll have teammates, you’ll need to agree on things with them, you’ll build on others’ code and others will build on your code. You’ll need to build solutions with a certain level of quality, in a future-proof way, for extensibility, and with performance in mind. Depending on your role and level, you’ll need to architect systems. You’ll need to mentor other engineers. You’ll need to onboard new team members. You’ll need to proactively reach out to other teams in the company and understand their points of view and problems. You’ll talk to product managers, UX researchers, designers, even customers sometimes. You’ll need to manage projects, make tradeoffs and decisions, and align other engineers with that.
 
+Read my article on [the most common 11 technical interview myths](https://ochronus.online/technical-interview-myths/)
+
+
 <hr class="light-separator spacer-separator" />
 
 ## Types and stages of technical interviews
@@ -52,22 +55,23 @@ Most companies use a combination of these steps:
 
 ### Ask the recruiter or the hiring manager before the interview
 
-Take the guesswork out of the equation. If you feel you don’t have enough information to prepare, just ask for more! We’re here to help you succeed. I really mean it. Sometimes we aren’t doing a great job with sharing enough information proactively about the interview steps but that’s not intentional! I’m always happy to help you prepare better – ask about anything, please. You’re doing both of us a favor with that. Ask during the previous interview step or just drop me an email at any time.
+
+![Ask the recruiter or the hiring manager before the interview](/img/acing-the-technical-interview/ask-the-recruiter-or-hiring-manager.jpg =300x300){.float-left} Take the guesswork out of the equation. If you feel you don’t have enough information to prepare, just ask for more! We’re here to help you succeed. I really mean it. Sometimes we aren’t doing a great job with sharing enough information proactively about the interview steps but that’s not intentional! I’m always happy to help you prepare better – ask about anything, please. You’re doing both of us a favor with that. Ask during the previous interview step or just drop me an email at any time.
 
 
 ### Show up on time
 
-Make sure you’re there on time. If you can’t, for some reason, please let us know, we’ll happily organize for another time, no hard feelings. Showing up on time isn’t only about respecting each other’s schedule – interview time slots are usually 100% utilized and by arriving 10 minutes late you’re reducing your own chance to be successful. You’re also making it more stressful for yourself than necessary. If you need time for commute or for your Zoom/Google Meet setup, think ahead and give yourself a buffer before the start.
+![Show up on time](/img/acing-the-technical-interview/arrive-on-time.jpg =300x300){.float-left} Make sure you’re there on time. If you can’t, for some reason, please let us know, we’ll happily organize for another time, no hard feelings. Showing up on time isn’t only about respecting each other’s schedule – interview time slots are usually 100% utilized and by arriving 10 minutes late you’re reducing your own chance to be successful. You’re also making it more stressful for yourself than necessary. If you need time for commute or for your Zoom/Google Meet setup, think ahead and give yourself a buffer before the start.
 
 
 ### Don't jump right in to solution mode - read, distill, paraphrase
 
-The biggest mistake you can do is thinking you understand the problem or what’s asked of you and jumping right into coding. Take your time, carefully read the problem statement, distill it, don’t think of solutions just yet. When you feel you understand what’s asked of you or when you thought about clarifying questions to ask, communicate. Paraphrase what you understood from the problem statement so you can verify it with your interviewers. Only when you’re on the same page can you shift into solution mode. Even if you come up with the best solution ultimately if you skip this step I’ll remember and have doubts about how it’d be to work with you.
+![Don't jump right in to solution mode - read, distill, paraphrase](/img/acing-the-technical-interview/read-distill-paraphrase.jpg =300x300){.float-left} The biggest mistake you can do is thinking you understand the problem or what’s asked of you and jumping right into coding. Take your time, carefully read the problem statement, distill it, don’t think of solutions just yet. When you feel you understand what’s asked of you or when you thought about clarifying questions to ask, communicate. Paraphrase what you understood from the problem statement so you can verify it with your interviewers. Only when you’re on the same page can you shift into solution mode. Even if you come up with the best solution ultimately if you skip this step I’ll remember and have doubts about how it’d be to work with you. Thinking aloud is really useful here - it will help you and help me too to understand what's on your mind.
 
 
 ### Be articulate and communicate clearly
 
-![Be articulate and communicate clearly](/img/acing-the-technical-interview/communicate-clearly.jpeg =300x300){.float-left} Even if you know your trade, if you fail to communicate clearly during your interview we’ll have no way of knowing. This takes practice for most people, so take your time and prepare! Use standard terms that other engineers can relate to, avoid passive voice, and be able to articulate what’s going on in your mind while you’re thinking. If you need some time to think quietly, say so, don’t just fall silent suddenly. We’re trying our best to communicate our expectations around this but it might be a bit late when you’re in the interview. Trust me on this one, practice here goes a long way.
+![Be articulate and communicate clearly](/img/acing-the-technical-interview/communicate-clearly.jpg =300x300){.float-left} Even if you know your trade, if you fail to communicate clearly during your interview we’ll have no way of knowing. This takes practice for most people, so take your time and prepare! Use standard terms that other engineers can relate to, avoid passive voice, and be able to articulate what’s going on in your mind while you’re thinking. If you need some time to think quietly, say so, don’t just fall silent suddenly. We’re trying our best to communicate our expectations around this but it might be a bit late when you’re in the interview. Trust me on this one, practice here goes a long way.
 
 
 ### Ask clarifying questions
@@ -77,7 +81,7 @@ The biggest mistake you can do is thinking you understand the problem or what’
 
 ### Demonstrate your tech skills the right way
 
-Make us see that you’re deeply proficient in at least one technology. This can be a programming language, for example. Also, demonstrate that you know the adjacent technologies – most companies are looking for so-called T-shape engineers. This means that mentioning other aspects of the problem and the solution goes a long way. For example, if you’re asked to implement a service in NodeJS, mention how you’d deploy, monitor, and scale it, even if that’s not explicitly asked. No need to go into too many details (unless people ask you). If you’re only focused on a single piece of the puzzle I’ll have a hard time seeing how you’d perform well in a changing environment (where you’ll need to make connections and work on multiple zoom levels and be ready). This is a very generic statement and might not be true in the case of highly specialized roles, of course. On the other hand, if you say your primary language is Python yet you can’t seem to show even a basic understanding of it, that’s a no-no. Work on the stem of that T, too. Hopefully, you’ve clarified what you’d be doing on the interview upfront (see advice #1) so you can think about adjacent technologies in advance.
+![T-shaped engineer](/img/acing-the-technical-interview/t-shaped-engineer.jpg =300x300){.float-left} Make us see that you’re deeply proficient in at least one technology. This can be a programming language, for example. Also, demonstrate that you know the adjacent technologies – most companies are looking for so-called T-shape engineers. This means that mentioning other aspects of the problem and the solution goes a long way. For example, if you’re asked to implement a service in NodeJS, mention how you’d deploy, monitor, and scale it, even if that’s not explicitly asked. No need to go into too many details (unless people ask you). If you’re only focused on a single piece of the puzzle I’ll have a hard time seeing how you’d perform well in a changing environment (where you’ll need to make connections and work on multiple zoom levels and be ready). This is a very generic statement and might not be true in the case of highly specialized roles, of course. On the other hand, if you say your primary language is Python yet you can’t seem to show even a basic understanding of it, that’s a no-no. Work on the stem of that T, too. Hopefully, you’ve clarified what you’d be doing on the interview upfront (see advice #1) so you can think about adjacent technologies in advance.
 
 
 ### Don’t get too focused or stuck on a solution
@@ -101,7 +105,7 @@ Make us see that you’re deeply proficient in at least one technology. This can
 
 ### If you get stuck
 
-Don’t panic 🙂 It happens to all of us. Take a moment to think. Catch your breath — clear your head. It’s completely OK to present a partial solution or a differently scoped one. Feel free to ask for some help or pointers. Your interviewers are prepared for this and this doesn’t mean you’re failing. Just be honest that you’re a bit stuck, we’re there to help you! That’s what we’d do with a teammate too!
+![If you get stuck unstuck yourself](/img/acing-the-technical-interview/unstuck-yourself.jpg =300x300){.float-left} Don’t panic 🙂 It happens to all of us. Take a moment to think. Catch your breath — clear your head. It’s completely OK to present a partial solution or a differently scoped one. Feel free to ask for some help or pointers. Your interviewers are prepared for this and this doesn’t mean you’re failing. Just be honest that you’re a bit stuck, we’re there to help you! That’s what we’d do with a teammate too! Remember, we'd like to understand how it'd be to have you as a teammate. I'm sure you'd be fine asking for some help in a team, so just do it on your interview, too!
 
 <hr class="light-separator spacer-separator" />
 
@@ -113,3 +117,5 @@ In my experience the most memorable candidates are genuine. They are honest abou
 Candidates really stand out when they can tell a story of their career – including where they want to be. Good candidates understand and can describe how the next role they want to land looks like. They demonstrate self-awareness. We humans can relate best to stories. Use that! Create a narrative.
 
 Memorable candidates can tell stories about ownership. I don’t mean technical ownership only, but demonstrating end-to-end understanding and care. I know you aren’t a salesperson or a marketing specialist but you can still show that you understand how that last feature you’ve developed is important, how users/customers are using it.
+
+Read my article on [the most common 11 technical interview myths](https://ochronus.online/technical-interview-myths/)

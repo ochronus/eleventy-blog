@@ -99,6 +99,8 @@ Nobody in the hiring process will think of you like that! Trust me on this one. 
 My goal is to find a good match between the role I’m hiring for and the candidate applying. This truly goes both ways. I do my best to make sure the candidate would be successful and happy if we hired them.
 
 
+Read my article with tips on [how to ace your technical interview](https://ochronus.online/acing-the-tech-interview/)
+
 <hr class="light-separator spacer-separator" />
 
 How many of the points above do you belive are true? Are you relieved after reading my points or do you think I'm just bullsh*tting? Did I miss anything? I'd love some feedback - hit me up on [Twitter](https://twitter.com/ochronus) or just drop an email to [blog@ochronus.online](mailto:blog@ochronus.online).
