@@ -95,6 +95,7 @@ Most companies use a combination of these steps:
 
 ![Don’t talk badly of a stack or language](/img/acing-the-technical-interview/dont-talk-shit.png =300x300){.float-left} Somehow talking badly of languages became a norm on the internet. It’s not only uncool but also demonstrates a lack of deeper understanding and professionalism. We all have our loved and hated technologies but ultimately it’s about different tradeoffs and different tools for different jobs. You can turn your dislike about that piece of technology into a positive thing by objectively arguing why your favorite thing is better suited for the job. The same goes for the way you talk about your previous or current companies – while it’s fine to describe what’s wrong there, please keep it objective and professional. It does help me understand what’s important for you and trust me it can be done in a respectful fashion.
 
+{% signupform %}
 
 ### Practice with a friend
 
