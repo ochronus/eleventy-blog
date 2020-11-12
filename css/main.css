@@ -617,3 +617,11 @@ img.float-left {
   margin-bottom: 15px;
   border: none;
 }
+
+@media  (max-width: 600px) {
+  img.float-left {
+    float: none;
+    border: none;
+    width: 100%;
+  }
+}

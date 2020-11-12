@@ -19,8 +19,6 @@ I’ve interviewed a few hundred software engineering candidates in the past 10+
 
 In the first part of this article, I’ll give some context, then give you an actionable list to improve your experience and chances in your next interview
 
-In the first part of this article, I’ll give you some context, then give you an actionable list to improve your experience and chances in your next interview.
-
 If you’re only interested in the actionable list, feel free to skip ahead to it.
 
 <hr class="light-separator spacer-separator" />
