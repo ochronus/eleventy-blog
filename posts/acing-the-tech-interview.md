@@ -66,6 +66,7 @@ Most companies use a combination of these steps:
 
 ![Don't jump right into solution mode - read, distill, paraphrase](/img/acing-the-technical-interview/read-distill-paraphrase.jpg =300x300){.float-left} The biggest mistake you can do is thinking you understand the problem or what’s asked of you and jumping right into coding. Take your time, carefully read the problem statement, distill it, don’t think of solutions just yet. When you feel you understand what’s asked of you or when you thought about clarifying questions to ask, communicate. Paraphrase what you understood from the problem statement so you can verify it with your interviewers. Only when you’re on the same page can you shift into solution mode. Even if you come up with the best solution ultimately if you skip this step I’ll remember and have doubts about how it’d be to work with you. Thinking aloud is really useful here - it will help you and help me too to understand what's on your mind.
 
+{% signupform %}
 
 ### Be articulate and communicate clearly
 
@@ -95,7 +96,6 @@ Most companies use a combination of these steps:
 
 ![Don’t talk badly of a stack or language](/img/acing-the-technical-interview/dont-talk-shit.png =300x300){.float-left} Somehow talking badly of languages became a norm on the internet. It’s not only uncool but also demonstrates a lack of deeper understanding and professionalism. We all have our loved and hated technologies but ultimately it’s about different tradeoffs and different tools for different jobs. You can turn your dislike about that piece of technology into a positive thing by objectively arguing why your favorite thing is better suited for the job. The same goes for the way you talk about your previous or current companies – while it’s fine to describe what’s wrong there, please keep it objective and professional. It does help me understand what’s important for you and trust me it can be done in a respectful fashion.
 
-{% signupform %}
 
 ### Practice with a friend
 

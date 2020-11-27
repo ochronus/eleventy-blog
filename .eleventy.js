@@ -60,6 +60,7 @@ const { parse } = require("path");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 
 module.exports = function (eleventyConfig) {
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -146,7 +147,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addLiquidShortcode("signupform", function() {
-    return '<!-- signup form placeholder -->';
+    return `
+      <iframe src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+    `;
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
