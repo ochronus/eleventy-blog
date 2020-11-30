@@ -66,7 +66,7 @@ Most companies use a combination of these steps:
 
 ![Don't jump right into solution mode - read, distill, paraphrase](/img/acing-the-technical-interview/read-distill-paraphrase.jpg =300x300){.float-left} The biggest mistake you can do is thinking you understand the problem or what’s asked of you and jumping right into coding. Take your time, carefully read the problem statement, distill it, don’t think of solutions just yet. When you feel you understand what’s asked of you or when you thought about clarifying questions to ask, communicate. Paraphrase what you understood from the problem statement so you can verify it with your interviewers. Only when you’re on the same page can you shift into solution mode. Even if you come up with the best solution ultimately if you skip this step I’ll remember and have doubts about how it’d be to work with you. Thinking aloud is really useful here - it will help you and help me too to understand what's on your mind.
 
-{% signupform %}
+<iframe src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
 
 ### Be articulate and communicate clearly
 
