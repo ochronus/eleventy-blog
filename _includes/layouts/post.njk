@@ -56,28 +56,92 @@ templateClass: tmpl-post
   </article>
 
 
+{% set desc = excerpt or metadata.excerpt or renderData.excerpt or renderData.description or description %}
+{% if not desc %}
+  {% set desc = content | striptags | truncate(140) %}
+{% endif %}
+
+{% set pageURL = metadata.url + (canonicalUrl or page.url) %}
+
+{% set title = renderData.title or title or metadata.title | escape%}
+
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ title }}",
-  "image": [],
-  "author": "{{ metadata.author.name }}",
-  "genre": "{{ metadata.genre }}",
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ metadata.publisher.name }}",
+"@context": "https://schema.org",
+"@graph": [
+  {
+    "@type": [
+        "Person",
+        "Organization"
+    ],
+    "@id": "https://ochronus.online/#person",
+    "name": "ochronus",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ '/img/favicon/favicon-192x192.png' | addHash }}"
+      "url": "{{ metadata.url + '/img/favicon/favicon-192x192.png' | addHash }}"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ metadata.url + '/img/favicon/favicon-192x192.png' | addHash }}"
     }
   },
-  "url": "{{ metadata.url }}{{ canonicalUrl or page.url }}",
-  "mainEntityOfPage": "{{ metadata.url }}{{ canonicalUrl or page.url }}",
-  "datePublished": "{{ page.date | htmlDateString }}",
-  "dateModified": "{{ page.inputPath | lastModifiedDate  | htmlDateString }}",
-  "description": "{{ content | striptags | truncate(140) }}"
+  {
+      "@type": "WebSite",
+      "@id": "https://ochronus.online/#website",
+      "url": "https://ochronus.online",
+      "name": "Ochronus online",
+      "publisher": {
+          "@id": "https://ochronus.online/#person"
+      },
+      "inLanguage": "en-US"
+  },
+  {
+      "@type": "ImageObject",
+      "@id": "{{ pageURL }}#primaryImage",
+      "url": "https://ochronus.online{{ image | addHash }}"
+  },
+  {
+      "@type": "WebPage",
+      "@id": "{{ pageURL }}#webpage",
+      "url": "{{ pageURL }}",
+      "name": "{{ title }} - Ochronus online",
+      "datePublished": "2020-10-23T18:30:00+02:00",
+      "dateModified": "2020-11-28T12:44:22+01:00",
+      "isPartOf": {
+          "@id": "https://ochronus.online/#website"
+      },
+      "primaryImageOfPage": {
+          "@id": "{{ pageURL }}#primaryImage"
+      },
+      "inLanguage": "en-US"
+  },
+  {
+      "@type": "BlogPosting",
+      "headline": "{{ title }} - Ochronus online",
+      "datePublished": "2020-10-23T18:30:00+02:00",
+      "dateModified": "2020-11-28T12:44:22+01:00",
+      "author": {
+          "@type": "Person",
+          "name": "Csaba Okrona"
+      },
+      "publisher": {
+          "@id": "https://ochronus.online/#person"
+      },
+      "description": "{{ desc }}",
+      "@id": "{{ metadata.url }}{{ canonicalUrl or page.url }}#richSnippet",
+      "isPartOf": {
+          "@id": "{{ metadata.url }}{{ canonicalUrl or page.url }}#webpage"
+      },
+      "image": {
+          "@id": "{{ metadata.url }}{{ canonicalUrl or page.url }}#primaryImage"
+      },
+      "inLanguage": "en-US",
+      "mainEntityOfPage": {
+          "@id": "{{ metadata.url }}{{ canonicalUrl or page.url }}#webpage"
+      }
+  }
+  ]
 }
 </script>
 

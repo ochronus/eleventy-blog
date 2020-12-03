@@ -42,14 +42,9 @@ const jsonLd = (rawContent, outputPath) => {
       ...dom.window.document.querySelectorAll("main img,amp-img"),
     ];
     try {
-      const obj = JSON.parse(jsonLd.textContent);
-
-      if (images.length) {
-        obj.image = images.map((img) => BASE_URL + img.src);
-        jsonLd.textContent = JSON.stringify(obj);
-        content = dom.serialize();
-      }
+      JSON.parse(jsonLd.textContent);
     } catch (e) {
+      console.log(jsonLd.textContent);
       throw new Error(`Failed to parse json-ld: ${e.message}`);
     }
   }
