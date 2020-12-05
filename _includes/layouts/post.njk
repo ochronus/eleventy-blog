@@ -106,8 +106,8 @@ templateClass: tmpl-post
       "@id": "{{ pageURL }}#webpage",
       "url": "{{ pageURL }}",
       "name": "{{ title }} - Ochronus online",
-      "datePublished": "2020-10-23T18:30:00+02:00",
-      "dateModified": "2020-11-28T12:44:22+01:00",
+      "datePublished": "{{ page.date | htmlDateString }}",
+      "dateModified": "{{ page.date | htmlDateString }}",
       "isPartOf": {
           "@id": "https://ochronus.online/#website"
       },
@@ -119,8 +119,8 @@ templateClass: tmpl-post
   {
       "@type": "BlogPosting",
       "headline": "{{ title }} - Ochronus online",
-      "datePublished": "2020-10-23T18:30:00+02:00",
-      "dateModified": "2020-11-28T12:44:22+01:00",
+      "datePublished": "{{ page.date | htmlDateString }}",
+      "dateModified": "{{ page.date | htmlDateString }}",
       "author": {
           "@type": "Person",
           "name": "Csaba Okrona"
