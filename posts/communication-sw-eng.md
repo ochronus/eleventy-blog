@@ -37,7 +37,7 @@ Some everyday situations in which your communication skills is essential to your
 
 
 
-<iframe src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
 
 
 

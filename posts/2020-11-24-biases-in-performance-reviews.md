@@ -23,24 +23,24 @@ Below, I break down the most common performance review biases and share advice o
 
 <hr class="light-separator spacer-separator" />
 
-## General advice for managers
+## General advice for managers {data-toc-exclude}
 One of the best ways to counter bias in reviews is to come up with a great review format that guides people and doesn’t magnify bias effects. Phrasing matters a lot. Setting the tone, being clear about the purpose and scope of the feedback form is key.
 
 Another very important point is to understand that giving quality feedback takes time, a certain kind of focus, and is a considerable effort. Make sure you proactively prepare your engineers for the feedback season and plan for it – one thing that worked pretty well for me is to represent feedback tasks as cards on the team board and even set them as sprint goals. Nothing makes feedback quality deteriorate more than rushing and feeling that you don’t have enough time for it. You can organize feedback training, too, with our without your HR peers.
 
-## General advice for everyone
+## General advice for everyone {data-toc-exclude}
 On the flip side of the above – expect that giving feedback is not a trivial task. Take your time, make sure you have a quiet corner, don’t do it in one go, take notes, work on your wording, look at email/slack/pull request history too and treat your peers as customers of your feedback.
 
 [My article on feedback](https://ochronus.online/thoughts-on-feedback/) might help in that.
 
-<iframe src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
 
 ## Recency bias
 Alice had a very strong year, she had great contributions to the projects her team was working on, achieved most of her goals, mastered a new language, and a framework. In the past month though, due to personal issues, she kept her involvement to the bare minimum. In his feedback to Alice, Bob highlights that he expects more from her and that she feels distant from the team. Bob completely fails to call out the amazing job Alice did earlier and the growth she had had.
 
 Recency bias is when recent events weigh much more heavily in your performance review than older, possibly even more significant events. This is partly due to how our memory works and is a completely natural thing, yet its impact can be really bad and can bias your review in either direction depending on what people remember about you recently.
 
-### How to deal with recency bias
+### How to deal with recency bias {data-toc-exclude}
 The best way is to collect feedback more frequently – for example, do a 360 each quarter even if you only have the performance review once a year. Project-level retrospectives can be helpful as well. Some managers keep ‘files’ on their engineers to counter this bias, but honestly, that can easily backfire – it can feel like a shady practice to their teams. Prefer transparent and open frequent feedback instead.
 
 Some people find it useful to keep a personal achievement log, which helps with their self-assessment or calling out things missing from their feedback. If you feel there are important bits missing from the feedback you’ve been given, call those out. If your manager doesn’t encourage more frequent feedback you can still ask for informal ones from your peers at any time.
@@ -50,7 +50,7 @@ Alice and Bob graduated from the same university and are both huge Star Trek fan
 
 We subconsciously tend to rate people similar to us higher. Similarity can mean many things – personality, looks, way of thinking, etc. Affinity bias occurs when we work with someone we feel we have an affinity with; maybe we attended the same college, we grew up in the same town, or they remind us of someone we know and like.
 
-### How to deal with similarity and affinity bias
+### How to deal with similarity and affinity bias {data-toc-exclude}
 A clear, and transparent performance evaluation system helps a lot here. Such a system is clear and well-understood level definitions, which can guide your focus while thinking about others’ performance. That said, levels are usually not public information in companies, so this won’t help too much with peer review.
 
 Getting feedback from multiple peers can help mitigate the effect of this bias.
@@ -64,7 +64,7 @@ In the halo effect, a single positive event or attribute lifts your review up, a
 
 This gets even worse if your manager is biased. A classic example of the manager having a halo bias is when they see one of their engineers as the “hero” or the “10x engineer”, being blind about any gaps they might have (btw. check out my older post about hero engineers). An example of a manager having the horn bias is when they stigmatize an engineer as e.g. “unreliable” or “not smart enough” based on a one-off event.
 
-### How to counter the halo or horn effects
+### How to counter the halo or horn effects {data-toc-exclude}
 You might ask “why would I want to counter the halo effect if it results in positive reviews about me?”. True, it might momentarily be even helpful for you, but not having a clear picture of your gaps ultimately does more damage than good to your career. It hinders your potential to grow and if you change teams, managers, or companies you might be suddenly underperforming and you won’t necessarily understand what happened.
 
 To counter the effect of these biases you first need to understand what the main positive or negative thing is in your feedback and have a heart-to-heart about it with yourself. Again, a proper level definition system helps a lot. If you feel that people are generalizing a one-off negative event, ask them to provide more examples of that behavior. You can actually call out that you feel stigmatized by that single event or trait. If you can, highlight counterexamples.
@@ -77,7 +77,7 @@ Bob is an engineering manager leading a mobile developer team. Bob has deep expe
 
 Idiosyncratic rater bias happens when people evaluate skills they’re not good at, higher. Sometimes they rate others lower in things they’re great at. This is rooted in lower standards we have for things we don’t have deep knowledge about and higher standards for things we’re experienced at. In other words, our feedback reflects more on our own skills than the person’s we’re reviewing.
 
-### How to counter the idiosyncratic rater bias
+### How to counter the idiosyncratic rater bias {data-toc-exclude}
 To overcome this bias as a manager, try rephrasing your performance evaluation questions for yourself from a different perspective, e.g.:
 
 If this engineer wanted to resign I would try to retain them.
@@ -95,7 +95,7 @@ Alice is the manager of a team. She hands in her annual performance evaluations,
 
 Many managers don’t like being extreme and tend to be moderate in their reviews. When everyone is receiving a rating of 3 out of 5 across the board, there’s no distinguishing the low-performing and high-performing employees. This will result in unfair reviews and people being pissed by lack of recognition and that nothing happens to low performers.
 
-### How to counter the centrality bias
+### How to counter the centrality bias {data-toc-exclude}
 Well, an easy hack is to remove the middle of the rating scale, the ‘neutral’ option, e.g. have a scale of 4 instead of 5 to force managers to decide. If you received one of the ‘meh’ reviews, have a heart-to-heart with your manager and highlight where you disagree. For example, if you feel you’ve been doing better in a certain area ask for explicit examples of how you could do better and cross-check it with your data points. Rating on multiple skills and axes can help, too, compared to a single, unified rating.
 
 
@@ -104,7 +104,7 @@ Alice is really good at project management. Bob is also great at it, but slightl
 
 Contrast bias occurs when the manager compares an employee’s performance to other employees instead of the company standard. When employees are ranked in comparison, someone must end up at the bottom, even if they are exceeding the company standard. The problem isn’t the employee – it’s the goal or standard that has been set.
 
-### How to counter the contrast bias
+### How to counter the contrast bias {data-toc-exclude}
 The review should have multiple axes and expectations should be clearly laid out in e.g. a leveling system. This doesn’t automatically protect against the contrast bias but it makes it harder to happen. What I’ve found useful as a manager is to separate each review I write with extra time and do something different in between – e.g. write the review for each engineer on separate days. If you feel you’ve been the victim of the contrast bias, always move to refer to the expectation definitions (e.g. leveling system). Point out to your manager how you think you’re meeting/exceeding specific expectations.
 
 
@@ -115,7 +115,7 @@ Alice also manages Carol, who she believes to be a bit too junior. Carol gets ov
 
 Confirmation bias is the tendency to search for or interpret new information in a way that confirms our preexisting beliefs. We intrinsically find it easy to believe people who align with us on specific facts, beliefs, or stances. On the other hand, we’re likely to be skeptical of people who don’t agree with us. It can skew the interpretation of valuable performance data.
 
-### How to counter the confirmation bias
+### How to counter the confirmation bias {data-toc-exclude}
 Turn this around! Look for information that goes against what you believe. Try to find data for it! If you read something that confirms what you already think, immediately check how many times others mention its opposite.
 
 <hr class="light-separator spacer-separator" />

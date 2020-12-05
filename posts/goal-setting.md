@@ -36,6 +36,8 @@ Your HR department might try to push you towards setting performance goals for y
 
 My advice is to be proactive about this, reach out to them and make sure you give context about why you believe performance goals don't fit your department.
 
+<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+
 ## OKRs, KPIs and SMART goals, oh my
 
 OKRs (Objectives and Key Results) and KPIs (Key Performance Indicators) are two frameworks and concepts for goal setting

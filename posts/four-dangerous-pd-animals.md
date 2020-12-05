@@ -34,6 +34,7 @@ Create a process for collecting feedback about problems, bugs and only consider 
 
 There’s a whole book on WOLF prioritization: [The Phoenix Project](https://www.amazon.com/gp/product/1942788290/)
 
+<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
 
 ## The RHINO – Really Here In Name Only
 ![Wolf](/img/rhino.png =200x200){.float-left} The RHINO is just there to collect a paycheck without contributing much to the team. They might not be actively impeding your decision-making, but they are not helping much either.

@@ -34,6 +34,9 @@ As a manager supporting your engineers is a huge part of your job. In this parti
 -   Regularly follow up with your engineers - do they feel their learning is going well? How is their progress? How can you (or others) help them?
 -   Think meta - learning hard skills is usually trivial and is the low hanging fruit. Picking up a new language or framework? Easy. We kind of know how to learn that, we've seen tons of examples. Well then, how to learn debugging the best? How about incident response? How about leading meetings? How about architectural planning? These are not so trivial but depending on the level and interest of your engineers can be the biggest blockers in the growth and career. Think ahead of time and set them up for success.
 -   Make sure that checking in on learning goals (called development goals officially) are part of your review cycles.
+
+<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+
 -   Celebrate learning. You don't need to overhype it, of course, but some public praise is always a moral booster and a good feedback.
 -   Reduce pressure on your team - get realistic with estimation and deadlines (this is a longer topic in itself) to make sure you have time for learning and it doesn't feel like 'learning vs. delivering'.
 -   This might sound trivial - make sure you have a budget to spend on learning. Books, courses, conferences cost money, don't expect your engineers to pay for those - at least chip in. Put your money where your mouth is.
