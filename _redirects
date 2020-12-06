@@ -1,3 +1,9 @@
+/feed/ /feed.xml
+/feed /feed.xml
+
+/sitemap_index.xml /sitemap.xml
+
+
 /fizzbuzz-in-css/ https://archive.ochronus.com/fizzbuzz-in-css/
 /fizzbuzz-in-css https://archive.ochronus.com/fizzbuzz-in-css/
 /react-reflux-example/ https://archive.ochronus.com/react-reflux-example/
