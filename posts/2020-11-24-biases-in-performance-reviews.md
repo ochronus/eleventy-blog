@@ -6,7 +6,7 @@ title: 7 harmful biases in performance reviews
 permalink: /biases-in-performance-reviews/
 excerpt: 'Unbiased performance reviews are key to a healthy organization and people’s growth. Learn about the typical biases in the process and how to counter them.'
 tags:
-    - performance review
+    - performance-review
     - management
 image: /img/Typical-biases-in-performance-reviews-2048x1072.png
 layout: layouts/post.njk
