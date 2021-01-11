@@ -48,7 +48,6 @@ const readFile = promisify(fs.readFile);
 const stat = promisify(fs.stat);
 const execFile = promisify(require("child_process").execFile);
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const markdownIt = require("markdown-it");
@@ -62,7 +61,6 @@ const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(require("./_11ty/img-dim.js"));
   eleventyConfig.addPlugin(require("./_11ty/json-ld.js"));
