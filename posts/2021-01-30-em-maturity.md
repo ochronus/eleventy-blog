@@ -93,7 +93,7 @@ This, in the end, is not about balance, I think, but rather about synergy (look,
 **I've personally only seen high performing AND happy teams when business results and team happiness/health were aligned.**
 
 
-<iframe loading=lazy src="https://newsletter.ochronus.online/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 ## 4. Too much solving, not enough listening
 > I remind myself every morning: Nothing I say this day will teach me anything. So if I'm going to learn, I must do it by listening.

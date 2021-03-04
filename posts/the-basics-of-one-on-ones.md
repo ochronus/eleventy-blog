@@ -31,7 +31,7 @@ Conducting good 1:1 sessions is one of the most frustrating skills new engineeri
 -   Onboarding check-in for new hires
 -   Share your mindset, way of thinking and let your peers challenge it
 
-<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 #### What to avoid:
 

@@ -46,6 +46,9 @@ This fallacy is so common that it even has sub-classes describing the multiple w
 - **Poisoning the well** is a rhetorical technique where someone presents irrelevant negative information about their opponent, with the goal of discrediting their opponent’s arguments. Poisoning the well is a term referring to Medieval attacks on Jewish communities. Without evidence, people would accuse Jewish people of poisoning the town well when there was sickness in the city. This was used as an excuse to attack Jewish people and consider anything they were associated with as a tainted or evil. *“You’re a known liar, why should we listen to you?!”*
 - **Argumentum ergo decedo**, also known as the **traitorous critic fallacy**, is telling a person who criticised something that they should stay away from the subject of their criticism if they disapprove of the current situation. *“Well if you don’t like how we test our code here you can always find another company.”*
 
+
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
+
 ### Straw man Argument
 It’s much easier to defeat your opponent’s argument when it’s made of straw. The straw man argument is aptly named after a harmless, lifeless, scarecrow. In the strawman argument, someone attacks a position the opponent doesn’t really hold. Instead of contending with the actual argument, he or she attacks the equivalent of a lifeless bundle of straw, an easily defeated effigy, which the opponent never intended upon defending anyway.
 

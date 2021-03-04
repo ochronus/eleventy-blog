@@ -39,7 +39,7 @@ False, for two reasons. While your interviewer will do their best to give you al
 
 No, we aren’t. We’re looking for a reasonably competent candidate with the right mindset who’s willing to take this journey of constant growth with us.
 
-<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 ### It’s not OK to send a follow-up email after my interview.
 

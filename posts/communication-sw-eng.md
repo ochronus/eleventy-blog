@@ -36,9 +36,7 @@ Some everyday situations in which your communication skills is essential to your
 * Giving feedback to others
 
 
-
-<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
-
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 
 ### Mid-level engineers

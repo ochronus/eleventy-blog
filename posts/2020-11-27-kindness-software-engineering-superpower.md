@@ -41,7 +41,7 @@ Cognitive empathy is about thought as much as emotion. It is knowing, understand
 
 Yet, without this, we can’t even talk about understanding others.
 
-<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 ### Emotional empathy
 Emotional Empathy, just like it sounds, involves directly feeling the emotions that the other person is feeling. It is actually very “biological”, it’s deeply rooted in our so-called [mirror neurons](https://www.apa.org/monitor/oct05/mirror). Sometimes this helps the other person (“misery loves company”) but it can easily backfire if you yourself lack the ability to manage distressing emotions. It can really help in forming a connection, though – as it conveys the message “wow, this person really understands me and cares for me”. Just remember, put on your own oxygen mask before helping others.

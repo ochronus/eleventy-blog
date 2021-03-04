@@ -33,7 +33,7 @@ On the flip side of the above – expect that giving feedback is not a trivial t
 
 [My article on feedback](https://ochronus.online/thoughts-on-feedback/) might help in that.
 
-<iframe loading=lazy src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
+<script async data-uid="5028433b2d" src="https://ochronus-online.ck.page/5028433b2d/index.js"></script>
 
 ## Recency bias
 Alice had a very strong year, she had great contributions to the projects her team was working on, achieved most of her goals, mastered a new language, and a framework. In the past month though, due to personal issues, she kept her involvement to the bare minimum. In his feedback to Alice, Bob highlights that he expects more from her and that she feels distant from the team. Bob completely fails to call out the amazing job Alice did earlier and the growth she had had.
