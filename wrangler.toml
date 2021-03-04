@@ -1,0 +1,10 @@
+name = "hugo-ochronus-online"
+type = "webpack"
+account_id = "f470ddfaa4420bbed48ff45e57ddb2a8"
+workers_dev = false
+route = "ws.ochronus.online/*"
+zone_id = "bc11e27212e5567fbafc49882401429e"
+
+[site]
+bucket = "_site"
+entry-point = "workers-site"
