@@ -2,7 +2,7 @@
   "trailingSlash": true,
   "headers": [
     {
-      "source": "/img/.*",
+      "source": "/img/(.*)",
       "headers" : [
         {
           "key" : "Cache-Control",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "source": "/js/.*",
+      "source": "/js/(.*)",
       "headers" : [
         {
           "key" : "Cache-Control",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "source": "/fonts/.*",
+      "source": "/fonts/(.*)",
       "headers" : [
         {
           "key" : "Cache-Control",
