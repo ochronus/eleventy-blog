@@ -39,7 +39,7 @@ These are the major reasons new engineering managers do this:
 4. There’s just too much to do in the team and they want to jump in and help.
 If you keep focusing on your personal contributions, such as writing code, architectural design, and day-to-day decision-making, you will constrain your team to only what you can fit into your own schedule. This is not the way to scale your team. If it’s usually your code that gets them over the finish line, you’re missing the point. You aren’t providing growth and scaling for the team, you’re providing some extra value as an engineer. If it’s another engineer that your team needs then hire one!
 
-### How to fix it
+### How to fix it {data-toc-exclude}
 Well, first, figure out your real reason(s) for still doing significant tech work in your team. Be honest with yourself.
 
 If the root cause is that you want to feel more successful and you regularly fall back to programming or architectural design then just trust me and take a leap of faith. You have a new role now with different responsibilities. Focusing on your team’s health and growth will pay *much higher dividends* than still being half an engineer.
@@ -54,7 +54,7 @@ I wrote a bit about it back in 2017 – [Engineering Managers, Stop Coding!](htt
 
 Another issue with giving only tech-related feedback is that the growth of your direct reports is hindered by this on all levels. Technical skills are important but there are other aspects that are equally crucial – a group of engineers, however amazing they might be, won’t ever work as a real team if their [communication skills](https://ochronus.online/communication-for-software-engineers/) are not there, for example. Your job now, as an engineering manager, is to keep a holistic watch over your team.
 
-### How to fix it
+### How to fix it {data-toc-exclude}
 
 Identify what’s hard for you to give non-technical feedback. Is it just a lack of awareness or does it feel weird to talk about those areas?
 
@@ -75,7 +75,7 @@ Actually, if you have a very small team, as a manager, you might just be the rig
 
 That said, as your team grows and so do its members, your individual contributors also need to learn how to run projects themselves. The more senior they get on the technical track, the more they will be expected to understand not only how to solve tough technical problems, but also how to break down the solution into milestones and coordinate others working on them.
 
-### How to fix it
+### How to fix it {data-toc-exclude}
 The “fix” for this is to understand your ICs career paths and realize you regularly need to delegate project management to help them grow. You can start with them shadowing you, then you can work together, dividing the duty but eventually they need to run projects by themselves, you acting more like a coach or consultant to them in this.
 
 
@@ -87,7 +87,7 @@ When you fail to give your team the context for the work and just pass on tasks 
 
 Now, you might think that by not involving them in certain discussions and keeping information from them you’re actually *helping them focus*. There’s a fine balance here, of course.
 
-### How to fix it
+### How to fix it {data-toc-exclude}
 Don’t exclude your team members from meetings where they could get the necessary context to actually be able to feel ownership of the projects. Don’t be afraid to even completely delegate representing the team on meetings to them!
 
 Your challenge as a manager is to find the right balance of providing information to the team and inviting them along to get, own and shape that information, while also not overwhelming them with meetings. The good news is that if you have an active and productive relationship with your team you’ll get timely feedback on this and you can course correct. Make asking if they want to tag along with you the default.
@@ -105,7 +105,7 @@ That said if you’re avoiding 1:1 sessions or you’re simply rushing through t
 
 I see two usual mistakes around one-on-one sessions: one is simply not having them or having them only sporadically because the new manager thinks they are not important. This goes hand in hand with having the manager’s focus in the wrong places – if you’re still knee-deep in programming you won’t even think about such context switches. The other mistake I see is turning these sessions into a status report about the ongoing project(s). Sometimes this is even initiated by the direct report, not knowing a better way to fill the time of the 1:1.
 
-### How to fix it
+### How to fix it {data-toc-exclude}
 Learn about how good one-on-one sessions look like! Think about the good and bad experiences you’ve had with your managers in this area. 1:1 sessions are great to build trust, share information, give and get feedback (both on your performances and ideas), career coaching your direct reports and ensuring alignment.
 
 You can read more about how to do one-on-one sessions here: [The basics of one on one sessions](https://ochronus.online/the-basics-of-one-on-ones/)
