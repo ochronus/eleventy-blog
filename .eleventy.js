@@ -145,9 +145,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addLiquidShortcode("signupform", function() {
-    return `
-      <iframe src="https://ochronus.substack.com/embed" width="100%" height="320" style="border:none; background:#f5f5f5;" frameborder="0" scrolling="no"></iframe>
-    `;
+    const content = fs.readFileSync("inlinesignupform.html");
+    return content;
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
