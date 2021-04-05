@@ -30,6 +30,9 @@
     }
   ],
   "redirects": [
+    { "source": "/let-2021-start(/?)", "destination": "https://leadership.garden/newsletter/let-2021-start/" },
+    { "source": "/category/management(/?)", "destination": "https://leadership.garden/tags/management/" },
+
     { "source": "/feed(/?)", "destination": "/feed.xml" },
     { "source": "/fizzbuzz-in-css(/?)", "destination": "https://archive.ochronus.com/fizzbuzz-in-css/" },
     { "source": "/react-reflux-example(/?)", "destination": "https://archive.ochronus.com/react-reflux-example/" },
