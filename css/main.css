@@ -468,6 +468,14 @@ header.post-header {
   margin-left: 20px;
 }
 
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 hr.light-separator {
   border: 0;
   height: 1px;
@@ -480,6 +488,8 @@ hr.light-separator {
 }
 
 hr.spacer-separator {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
   margin-bottom: 60px;
   width: 70%;
