@@ -10,3 +10,6 @@ functions
 test
 src
 .oryx_prod_node_modules/
+styles/
+write-good/
+drafts/
