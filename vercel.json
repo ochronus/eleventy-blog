@@ -43,8 +43,8 @@
     }
   ],
   "redirects": [
-    { "source": "/let-2021-start(/?)", "destination": "https://leadership.garden/newsletter/let-2021-start/" },
-    { "source": "/category/management(/?)", "destination": "https://leadership.garden/tags/management/" },
+    { "source": "/the-basics-of-one-on-ones(/?)", "destination": "https://leadership.garden/the-basics-of-one-on-ones/" },
+
 
     { "source": "/feed(/?)", "destination": "/feed.xml" },
     { "source": "/fizzbuzz-in-css(/?)", "destination": "https://archive.ochronus.com/fizzbuzz-in-css/" },
