@@ -48,6 +48,12 @@
     { "source": "/the-5-common-mistakes-of-new-engineering-managers(/?)", "destination": "https://leadership.garden/the-5-common-mistakes-of-new-engineering-managers/" },
 
     { "source": "/newsletter(.*)", "destination": "https://leadership.garden/newsletter$1" },
+    { "source": "/tags/(.*)", "destination": "https://leadership.garden/tag/$1" },
+    { "source": "/feed(.*)", "destination": "https://leadership.garden/rss/" },
+    { "source": "/rss(.*)", "destination": "https://leadership.garden/rss/" },
+    { "source": "/atom(.*)", "destination": "https://leadership.garden/rss/" },
+
+
 
 
 
