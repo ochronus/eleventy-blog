@@ -45,7 +45,10 @@
   "redirects": [
     { "source": "/the-basics-of-one-on-ones(/?)", "destination": "https://leadership.garden/the-basics-of-one-on-ones/" },
     { "source": "/four-dangerous-animals-of-product-development(/?)", "destination": "https://leadership.garden/four-dangerous-animals-of-product-development/" },
+    { "source": "/the-5-common-mistakes-of-new-engineering-managers(/?)", "destination": "https://leadership.garden/the-5-common-mistakes-of-new-engineering-managers/" },
+
     { "source": "/newsletter(.*)", "destination": "https://leadership.garden/newsletter$1" },
+
 
 
     { "source": "/feed(/?)", "destination": "/feed.xml" },

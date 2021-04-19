@@ -12,6 +12,7 @@ tags:
 image: /img/5-rookie-em-mistakes.jpg
 layout: layouts/post.njk
 toc: true
+delist: true
 ---
 
 Starting in a new role as a fresh engineering manager is not easy. Suddenly you need very different skills, feedback loops seem insanely long and the sense of accomplishment and success starts fading as a result.
