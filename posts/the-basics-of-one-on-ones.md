@@ -10,7 +10,7 @@ tags:
     - management
 image: /img/one-on-one.jpg
 layout: layouts/post.njk
-draft: true
+draft: false
 ---
 
 Conducting good 1:1 sessions is one of the most frustrating skills new engineering leads need to learn. It’s frustrating for many because this is one of the leadership areas where you don’t have a step-by-step guide, it takes a fairly long time to form a good 1:1 structure with each peer and by nature it’s dynamic – very different conversations will be necessary in different scenarios. My goal with this post is to write about my experience and my personal best practices that worked for me on both sides of this relationship – as an engineer and as an engineering manager. I’ll also mention some common pitfalls to avoid.
