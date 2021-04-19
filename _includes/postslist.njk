@@ -1,6 +1,6 @@
 <ul class="index-posts">
 {% for post in postslist | reverse %}
-{% if not post.data.draft %}
+{% if not post.data.draft and not post.data.delist %}
   <li>
     <article>
       <header>
