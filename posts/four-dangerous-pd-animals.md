@@ -11,6 +11,7 @@ tags:
     - management
 image: /img/four-dangerous-animals-product-development-2048x1152.jpeg
 layout: layouts/post.njk
+delist: true
 ---
 
 This is going to be a short walk in the product development zoo, I hope you’ll enjoy the ride!
