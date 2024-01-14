@@ -43,6 +43,7 @@
     }
   ],
   "redirects": [
+    { "source": "/:path*", "destination": "https://leadership.garden/:path*", "permanent": true },
     { "source": "/staying-motivated-while-growing(/?)", "destination": "https://leadership.garden/articles/staying-motivated-while-growing/" },
     { "source": "/engineering-managers-stop-coding(/?)", "destination": "https://leadership.garden/articles/engineering-managers-stop-coding/" },
     { "source": "/kill-your-heroes(/?)", "destination": "https://leadership.garden/articles/kill-your-heroes/" },
